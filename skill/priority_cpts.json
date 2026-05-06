@@ -1,0 +1,216 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-04-26",
+  "procedures": [
+    {
+      "cpt": "99204",
+      "description": "Office visit, new patient (moderate complexity)",
+      "category": "primary_care",
+      "tier": "routine",
+      "pre_auth": { "HMO": false, "PPO": false, "HDHP": false }
+    },
+    {
+      "cpt": "99214",
+      "description": "Office visit, established patient (moderate complexity)",
+      "category": "primary_care",
+      "tier": "routine",
+      "pre_auth": { "HMO": false, "PPO": false, "HDHP": false }
+    },
+    {
+      "cpt": "99213",
+      "description": "Urgent care visit (low-moderate complexity)",
+      "category": "urgent_care",
+      "tier": "routine",
+      "pre_auth": { "HMO": false, "PPO": false, "HDHP": false }
+    },
+    {
+      "cpt": "80053",
+      "description": "Comprehensive metabolic panel",
+      "category": "lab",
+      "tier": "routine",
+      "pre_auth": { "HMO": false, "PPO": false, "HDHP": false }
+    },
+    {
+      "cpt": "85025",
+      "description": "Complete blood count (CBC)",
+      "category": "lab",
+      "tier": "routine",
+      "pre_auth": { "HMO": false, "PPO": false, "HDHP": false }
+    },
+    {
+      "cpt": "80061",
+      "description": "Lipid panel",
+      "category": "lab",
+      "tier": "routine",
+      "pre_auth": { "HMO": false, "PPO": false, "HDHP": false }
+    },
+    {
+      "cpt": "82043",
+      "description": "Urine albumin quantitative",
+      "category": "lab",
+      "tier": "routine",
+      "pre_auth": { "HMO": false, "PPO": false, "HDHP": false }
+    },
+    {
+      "cpt": "83036",
+      "description": "Hemoglobin A1c (HbA1c)",
+      "category": "lab",
+      "tier": "routine",
+      "pre_auth": { "HMO": false, "PPO": false, "HDHP": false }
+    },
+    {
+      "cpt": "71046",
+      "description": "X-ray, chest (2 views)",
+      "category": "imaging",
+      "tier": "routine",
+      "pre_auth": { "HMO": false, "PPO": false, "HDHP": false }
+    },
+    {
+      "cpt": "70553",
+      "description": "MRI brain without and with contrast",
+      "category": "imaging",
+      "tier": "routine",
+      "pre_auth": { "HMO": true, "PPO": true, "HDHP": false }
+    },
+    {
+      "cpt": "72148",
+      "description": "MRI lumbar spine without contrast",
+      "category": "imaging",
+      "tier": "routine",
+      "pre_auth": { "HMO": true, "PPO": true, "HDHP": false }
+    },
+    {
+      "cpt": "74177",
+      "description": "CT abdomen and pelvis with contrast",
+      "category": "imaging",
+      "tier": "routine",
+      "pre_auth": { "HMO": true, "PPO": true, "HDHP": false }
+    },
+    {
+      "cpt": "76700",
+      "description": "Ultrasound, abdomen complete",
+      "category": "imaging",
+      "tier": "routine",
+      "pre_auth": { "HMO": true, "PPO": false, "HDHP": false }
+    },
+    {
+      "cpt": "77066",
+      "description": "Mammogram, diagnostic bilateral",
+      "category": "imaging",
+      "tier": "routine",
+      "pre_auth": { "HMO": false, "PPO": false, "HDHP": false }
+    },
+    {
+      "cpt": "45378",
+      "description": "Colonoscopy, screening",
+      "category": "preventive",
+      "tier": "routine",
+      "pre_auth": { "HMO": true, "PPO": false, "HDHP": false }
+    },
+    {
+      "cpt": "G0439",
+      "description": "Annual wellness visit (Medicare), or equivalent preventive visit",
+      "category": "preventive",
+      "tier": "routine",
+      "pre_auth": { "HMO": false, "PPO": false, "HDHP": false }
+    },
+    {
+      "cpt": "99284",
+      "description": "ER visit, moderate complexity",
+      "category": "emergency",
+      "tier": "acute",
+      "pre_auth": { "HMO": false, "PPO": false, "HDHP": false },
+      "notes": "Retroactive review possible but not prior auth"
+    },
+    {
+      "cpt": "99285",
+      "description": "ER visit, high complexity",
+      "category": "emergency",
+      "tier": "acute",
+      "pre_auth": { "HMO": false, "PPO": false, "HDHP": false },
+      "notes": "Retroactive review possible but not prior auth"
+    },
+    {
+      "cpt": "44950",
+      "description": "Appendectomy, laparoscopic",
+      "category": "surgery",
+      "tier": "acute",
+      "pre_auth": { "HMO": true, "PPO": true, "HDHP": true },
+      "notes": "Emergency appendectomy: no pre-auth. Elective/interval: yes."
+    },
+    {
+      "cpt": "47562",
+      "description": "Cholecystectomy, laparoscopic",
+      "category": "surgery",
+      "tier": "acute",
+      "pre_auth": { "HMO": true, "PPO": true, "HDHP": false }
+    },
+    {
+      "cpt": "93000",
+      "description": "Electrocardiogram (EKG), routine",
+      "category": "cardiac",
+      "tier": "acute",
+      "pre_auth": { "HMO": false, "PPO": false, "HDHP": false }
+    },
+    {
+      "cpt": "93306",
+      "description": "Echocardiography with Doppler",
+      "category": "cardiac",
+      "tier": "acute",
+      "pre_auth": { "HMO": true, "PPO": true, "HDHP": false }
+    },
+    {
+      "cpt": "27447",
+      "description": "Total knee replacement (arthroplasty)",
+      "category": "orthopedic",
+      "tier": "catastrophic",
+      "pre_auth": { "HMO": true, "PPO": true, "HDHP": true }
+    },
+    {
+      "cpt": "27130",
+      "description": "Total hip replacement (arthroplasty)",
+      "category": "orthopedic",
+      "tier": "catastrophic",
+      "pre_auth": { "HMO": true, "PPO": true, "HDHP": true }
+    },
+    {
+      "cpt": "37238",
+      "description": "Intravascular stent placement (coronary)",
+      "category": "cardiac",
+      "tier": "catastrophic",
+      "pre_auth": { "HMO": true, "PPO": true, "HDHP": true }
+    },
+    {
+      "cpt": "96413",
+      "description": "Chemotherapy administration, intravenous (first hour)",
+      "category": "oncology",
+      "tier": "catastrophic",
+      "pre_auth": { "HMO": true, "PPO": true, "HDHP": true }
+    },
+    {
+      "cpt": "59400",
+      "description": "Vaginal delivery, routine obstetric care",
+      "category": "obstetrics",
+      "tier": "catastrophic",
+      "pre_auth": { "HMO": true, "PPO": true, "HDHP": false }
+    },
+    {
+      "cpt": "59510",
+      "description": "Cesarean delivery, routine obstetric care",
+      "category": "obstetrics",
+      "tier": "catastrophic",
+      "pre_auth": { "HMO": true, "PPO": true, "HDHP": false }
+    }
+  ],
+  "catastrophic_bundles": {
+    "er_visit_moderate": ["99284"],
+    "er_visit_major": ["99285", "93000", "71046"],
+    "appendectomy": ["44950", "99285", "93000"],
+    "knee_replacement": ["27447", "93000", "72148"],
+    "hip_replacement": ["27130", "93000", "71046"],
+    "cardiac_stent": ["37238", "93306", "93000", "99285"],
+    "chemotherapy_course": ["96413", "96413", "96413", "96413", "99214"],
+    "vaginal_delivery": ["59400"],
+    "cesarean_delivery": ["59510"]
+  }
+}
